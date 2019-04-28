@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {SafeAreaView, ScrollView} from 'react-native';
 
+
 class CoursesScreen extends React.Component {
     static navigationOptions = {
         header: null

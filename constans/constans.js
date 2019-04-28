@@ -44,6 +44,11 @@ export const cards = [
         subtitle: "1 of 8 module",
         caption: "Satoshi way",
         logo: require("../assets/logo/logo-bitcoin.png"),
+        info: ['Game theory',
+            'Genesis block',
+            'PoW implementation',
+            'Mining reward and transaction',
+            'Wallet implementation']
     },
     {
         title: "Module 2",
@@ -51,6 +56,7 @@ export const cards = [
         subtitle: "2 of 8 module",
         caption: "Satoshi way",
         logo: require("../assets/logo/logo-bitcoin.png"),
+        info: ['Multisig wallet', 'Bitcoin script', 'Segwit']
     },
     {
         title: "Module 3",
@@ -58,6 +64,7 @@ export const cards = [
         subtitle: "3 of 8 module",
         caption: "Satoshi way",
         logo: require("../assets/logo/logo-bitcoin.png"),
+        info: ['Lightning network', 'Atomic swap']
     },
     {
         title: "Module 4",
@@ -65,6 +72,7 @@ export const cards = [
         subtitle: "4 of 8 module",
         caption: "Satoshi way",
         logo: require("../assets/logo/logo-bitcoin.png"),
+        info: ['BTC receiver', 'Security issues', 'LN reciever']
     },
     {
         title: "Module 5",
@@ -72,6 +80,7 @@ export const cards = [
         subtitle: "5 of 8 module",
         caption: "PoSt-Satoshi era",
         logo: require("../assets/logo/logo-Ethereum.png"),
+        info: ['Introduction to Ethereum', 'Smart contracts']
     },
     {
         title: "Module 6",
@@ -79,6 +88,7 @@ export const cards = [
         subtitle: "6 of 8 module",
         caption: "PoSt-Satoshi era",
         logo: require("../assets/logo/logo-Ethereum.png"),
+        info: ['Patterns of smart contracts', 'Decentralized Applications (DApps)']
     },
     {
         title: "Module 7",
@@ -86,6 +96,7 @@ export const cards = [
         subtitle: "7 of 8 module",
         caption: "PoSt-Satoshi era",
         logo: require("../assets/logo/logo-Ethereum.png"),
+        info: ['Tokens and crowd sale', 'Security of smart contracts and Dapps']
     },
     {
         title: "Module 8",
@@ -93,6 +104,7 @@ export const cards = [
         subtitle: "8 of 8 module",
         caption: "PoSt-Satoshi era",
         logo: require("../assets/logo/logo-Ethereum.png"),
+        info: ['Mobile experience for Dapps', 'Course wrap-up and future of Ethereum platform: Proof of Stake, Interledgers, Wasm.']
     },
 ]
 
@@ -156,16 +168,16 @@ export const items = [
     {
         icon: require("../assets/logo/logo-facebook.png"),
         title: "Facebook",
-        text : "https://www.facebook.com/blockchainhub.one/"
+        text: "https://www.facebook.com/blockchainhub.one/"
     },
     {
         icon: require("../assets/logo/logo-twitter.png"),
         title: "Twitter",
-        text : "https://twitter.com/blockchain_hub1"
+        text: "https://twitter.com/blockchain_hub1"
     },
     {
         icon: require("../assets/logo/logo-youtube.png"),
         title: "Youtube",
-        text : "https://www.youtube.com/channel/UCIfoXLTxoFtUaVrH3rxzm-A"
+        text: "https://www.youtube.com/channel/UCIfoXLTxoFtUaVrH3rxzm-A"
     },
 ]

@@ -24,7 +24,7 @@ HomeStack.navigationOptions=({navigation})=>{
     const routeName = navigation.state.routes[navigation.state.index].routeName;
 
     if ( routeName == "Section"){
-        tabBarVisible = true;
+        tabBarVisible = false;
     }
     return{
         tabBarVisible,

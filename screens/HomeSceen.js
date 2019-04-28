@@ -107,7 +107,7 @@ class HomeScreen extends React.Component {
                                 {cards.map((card, index) => (
                                     <TouchableOpacity
                                         key={index}
-                                        onPress={()=>{this.props.navigation.push("Section")}}
+                                        onPress={()=>{this.props.navigation.push("Section", {card})}}
                                     >
                                         <Card
                                               title={card.title}
